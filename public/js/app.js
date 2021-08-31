@@ -1,11 +1,3 @@
-console.log("Client Side Java script file is loaded...")
-
-// fetch("http://localhost:3000/weather?address=Kothamangalam").then((response) => {
-//     response.json().then((data) => {
-//         console.log(data)
-//     })
-// })
-
 const weatherForm = document.querySelector("form")
 const searchLocation = document.querySelector("input")
 const result = document.querySelector("#weather")
