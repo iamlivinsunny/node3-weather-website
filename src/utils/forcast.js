@@ -13,7 +13,8 @@ const forcast = (locationData, callback) => {
             // console.log(response.body.current)
             // console.log(response)
             // console.log(error)
-            callback(undefined, `${response?.body?.current?.weather_descriptions}. It is currently ${response?.body?.current?.temperature} Fahrenheit out. It feels like ${response?.body?.current?.feelslike} Fahrenheit out.`)
+            callback(undefined, `${response?.body?.current?.weather_descriptions}. It is currently ${response?.body?.current?.temperature} Fahrenheit out. It feels like ${response?.body?.current?.feelslike} Fahrenheit out. The humidity is ${response?.body?.current?.humidity}.`)
+            console.log(response?.body?.current)
         }
     })
 }
