@@ -58,3 +58,8 @@ button{
     background-color: #888;
     padding: 8px;
 }
+
+.description{
+    margin-bottom: 10px;;
+    color: #333333;
+}
